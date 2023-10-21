@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <h1>My Home Page</h1>
       <p>
-        Go <Link to="/products">products</Link>.
+        Go <Link to="products">products</Link>.
       </p>
       <p>
         <button onClick={navigateHandler}>Navigate</button>
